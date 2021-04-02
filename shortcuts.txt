@@ -1,0 +1,37 @@
+Shortcuts:
+    1. ctrl + A = takes you to the beginning of the line.
+    2. ctrl + E = takes you to the end of the line
+    3. ctrl + K = "yanks" - removes everything after the cursor.
+    4. ctrl + U = removes everything before the cursor.
+    5. ctrl + Y = undo for above two commands.
+    6. ctrl + R = reverse search
+
+__________________________________________________________________________________________________________________
+
+Signals:
+    1. ctrl + C - SIGINT(signal interrupt)
+    2. ctrl + D - SIGQUIT(end session)
+    3. SIGTERM  - killing programs before shut down
+    4. SIGKILL  - stop & stop now(programs)
+__________________________________________________________________________________________________________________
+
+reading Files:
+    1. less, more, cat
+------------------------------------------------------------------------------------------------------------------
+writing files:
+    2. nano, vi(vim)
+------------------------------------------------------------------------------------------------------------------
+creating folder:
+    1. mkdir
+    2. nested folder: use -p flag. eg: (mkdir -p com/xpense/java).
+__________________________________________________________________________________________________________________
+
+compressing folder:
+    1. tar -cf [<name>.tar] [optional files] - (Files will be bundled but, the size remains unchanged).
+    2. for reducing the size use, tar -zcf [<name>.tar.gz] [optional files].
+------------------------------------------------------------------------------------------------------------------
+
+Extracting folder:
+    1. tar -xzf [<name.tar.gz || .tar>] -C [destination folder]
+
+__________________________________________________________________________________________________________________
