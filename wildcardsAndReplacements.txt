@@ -1,0 +1,22 @@
+Wildcards:
+	1. creating files using wildcards. 
+		- ex: 
+			touch user{Login, Logout}.go 
+		- The above command creates to files(userLogin.go, userLogout.go)
+
+
+Ranges:
+	1. files can be created using ranges.
+		- ex: 
+			touch file(1..5).js
+		- The above command creates 5files{file1.js, file2.js..etc}.
+		- alphabets can also be used. ex: touch files{a..z}.
+	2. echo {0..10..2}
+		- output: 0 2 4 6 8 10
+
+searching:
+	1. Let's assume we have 5 files(file1.sh, file2.sh, file3.sh, file-2.sh, file-1.sh).
+	2. using *
+		- ls file*  - " * " matches everything.
+	3. using ?
+		- ls file??.sh - matches file1.sh, file2.sh
