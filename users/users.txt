@@ -1,0 +1,21 @@
+- Users
+
+   + Switching to root: sudo su
+   + Exiting from root: exit
+===============================================
+
+- Creating, Deleting & setting passwd and groups:
+
+   + creation:            sudo useradd <user_name>
+   + setting up password: sudo passwd <user_name>
+   + removing user:       sudo userdel <user_name>
+   + switching(newUser):  su <user_name>
+   + exiting(newUser):    exit
+
+- Groups:
+   + Grouping users and giving them privileges.
+   + adding newly created user to sudo group. so that the new user can be of the sudoers
+   + command: sudo usermod -aG sudo <user_name> (a-append, G- group)
+   + removing a user from a group - sudo deluser <user_name> sudo
+===============================================
+ref - https://btholt.github.io/complete-intro-to-linux-and-the-cli/users-groups-and-permissions

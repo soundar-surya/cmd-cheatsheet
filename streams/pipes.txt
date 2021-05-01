@@ -1,0 +1,9 @@
+https://btholt.github.io/complete-intro-to-linux-and-the-cli/streams-and-pipes
+
+Pipes:
+	- passing output of one program to input of another program.
+	- respresented by " | ".
+	- eg:  cat file.txt | grep "output" (output of cat program is passed as an input through pipe to frep program)
+	- eg 2:  ps aux | grep "yes" (the output form ps aux which has all process running which passed to grep program).
+	- eg 3: yes n | rm -i file*  (-i flag asks user whether to keep or delete before deleting. here, the output "y" from yes is passed to the second program. which deletes all the files.)
+	

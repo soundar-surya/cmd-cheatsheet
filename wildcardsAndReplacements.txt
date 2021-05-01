@@ -19,4 +19,4 @@ searching:
 	2. using *
 		- ls file*  - " * " matches everything.
 	3. using ?
-		- ls file??.sh - matches file1.sh, file2.sh
+		- ls file??.sh - matches file-1.sh, file-2.sh

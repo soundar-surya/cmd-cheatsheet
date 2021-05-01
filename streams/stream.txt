@@ -1,0 +1,19 @@
+	- inputs, outputs are stream of text
+	- stdin, studout, stderr
+	
+	
+Note:								  
+	>   - Copies the content			 
+	>> - Appends the content			 
+
+Output Stream example:
+	- echo "Hello" 1> log.txt
+	- here, output of echo is passed as an input to a file.
+	- output of one program/file is passing as an input to another file.(Now a file called log.txt will be created with a text "Hello")
+	- 1 : stdout (only for stdout).
+	- 2 : stderr(only for error).
+	- ">" alone is used for processing both out and err in the same destination.
+	
+Input Stream example:
+	- example: grep -i "hi\." < [filename].
+	- Here, the content of the file is passed as an input to grep. and grep checks for the match 
